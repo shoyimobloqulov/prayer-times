@@ -1,6 +1,11 @@
 <template>
     <ThemeSwitcher />
     <div class="card">
+        <div class="card-body">
+            <h1 class="text-center card-title">Namoz vaqtlari Vue dasturlash interfeysi islomapi.uz va  islom.uz dan foydalanildi</h1>
+        </div>
+    </div>
+    <div class="card">
         <h4 class="card-title">Islomiy namoz vaqtlari</h4>
         <p class="card-body">Samarqand · {{  today }} </p>
         <Tabs value="0">
@@ -46,6 +51,10 @@
             </TabPanels>
         </Tabs>
         
+    </div>
+
+    <div class="card-footer">
+        Ushbu loyiha <b>vue js</b> da yozib chiqildi, ui uchun <b>primevue.org</b> dan foydalanildi. Api uchun islomapi.uz va islom.uz dan foydalanilgan , "islomapi.uz" norasmiy api bo'lib, "islom.uz" ning ochiq ma'lumotlariga asoslangan holda ishlaydi. Muallif hech narsaga javobgar emas. Credits: <a href="https://t.me/obloqulov_shoyim"> Shoyim Obloqulov</a>
     </div>
 </template>
 <script>
